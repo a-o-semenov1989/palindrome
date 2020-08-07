@@ -5,6 +5,6 @@ const palindrome = (str) => {
   return str === str.split('').reverse().join('');
 }
 
-const isPalindrome = palindrome('Anna');
+const isPalindrome = palindrome('Kayak');
 
 console.log(isPalindrome);
